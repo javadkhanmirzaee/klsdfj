@@ -6,6 +6,9 @@
 - [فهرستی از ویژگی‌ها یا کامپوننت‌های پروژه]
 - توسعه مدرن با استفاده از hooks و context API در React
 - [ویژگی‌ها یا کتابخانه‌های اضافی مورد استفاده]
+- [فهرستی از ویژگی‌ها یا کامپوننت‌های پروژه]
+- توسعه مدرن با استفاده از hooks و context API در React
+
 
 ## شروع کار
 
@@ -32,9 +35,6 @@
 
 3. **نصب وابستگی‌ها**:
 
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-
 اگر از npm استفاده می‌کنید: 
   ```bash
   npm install
@@ -60,16 +60,19 @@ yarn start
 
 #### برنامه در ادرس `http://localhost:3000` اجرا میشود
 
+## ساخت برای تولید
+###    برای ایجاد نسخه تولید بهینه شده 
+
+اگر از npm استفاده میکنید
 ```bash
-.
-├── public
-│   └── index.html
-├── src
-│   ├── components
-│   ├── assets
-│   ├── hooks
-│   └── App.js
-├── package.json
-└── README.md
+npm run build
+```
+
+اگر از yarn استفاده میکنید
+```bash
+yarn build
+```
+
+### این دستور فولدر `dist` را با تمام فایل های آماده تولید ایجاد میکند
 
 
